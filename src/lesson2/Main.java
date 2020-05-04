@@ -10,16 +10,16 @@ public class Main {
             Доступный список объемов памяти  : 2, 4, 8
             Создать 10 объектов, поместить их в массив.*/
         public static void main(String[] args) {
-            Computer computer1 = new Computer("HP", 15, 2.0, 1120, "i3");
-            Computer computer2 = new Computer("Lenovo", 15, 4.0, 5320, "i53");
-            Computer computer3 = new Computer("Asus", 15, 6.0, 1020, "i7");
-            Computer computer4 = new Computer("HP", 15, 8.0, 1140, "i81");
-            Computer computer5 = new Computer("Lenovo", 15, 5.0, 2020, "i6");
-            Computer computer6 = new Computer("HP", 15, 4.0, 2120, "i84");
-            Computer computer7 = new Computer("HP", 15, 3.0, 3120, "i9");
-            Computer computer8 = new Computer("Lenovo", 15, 2.0, 4120, "i13");
-            Computer computer9 = new Computer("Asus", 15, 8.0, 1000, "i4");
-            Computer computer10 = new Computer("HP", 15, 7.0, 3500, "i2");
+            Computer computer1 = new Computer("HP",1, 15, 2.0, 1120, "i3");
+            Computer computer2 = new Computer("Lenovo", 2,15, 4.0, 5320, "i53");
+            Computer computer3 = new Computer("Asus",3, 15, 6.0, 1020, "i7");
+            Computer computer4 = new Computer("HP",4, 15, 8.0, 1140, "i81");
+            Computer computer5 = new Computer("Lenovo", 5,15, 5.0, 2020, "i6");
+            Computer computer6 = new Computer("HP",6, 15, 4.0, 2120, "i84");
+            Computer computer7 = new Computer("HP",7, 15, 3.0, 3120, "i9");
+            Computer computer8 = new Computer("Lenovo",8, 15, 2.0, 4120, "i13");
+            Computer computer9 = new Computer("Asus",9, 15, 8.0, 1000, "i4");
+            Computer computer10 = new Computer("HP",10, 15, 7.0, 3500, "i2");
 
             Computer[] computers = {computer1, computer2, computer3, computer4, computer5, computer6, computer7, computer8, computer9, computer10};
             System.out.println(computers.length);// количество массива их 10
