@@ -2,10 +2,6 @@ package lesson3;
 
 import lesson2.Computer;
 
-import java.util.Arrays;
-import java.util.Random;
-import java.util.concurrent.Callable;
-
 public class Task3MathOperation {
     public static int add(int a, int b, int c) {
         return a + b + c;
@@ -83,13 +79,14 @@ public class Task3MathOperation {
      создайте массив из 10 различных компьютеров. Создайте метод который будет принимать массив этих компьютеров и
      выводить только те объекты объем оперативной памяти которых больше чем 4 ГБ.*/
 
-    Computer[] pcFilter(Computer[] computers) {
-        for (Computer computer : computers) {
+    void pcFilter(Computer[] computers) {
+        for (Computer computer : computers)
             if (computer.volume >= 4) {
                 System.out.println(computer);
 
             }
-        }
+    }
+}
 
 /*9. Используя предыдущее задание усовершенствовать его. Теперь метод должен принимать массив объектов и числовое
 значение которая
@@ -110,19 +107,20 @@ public class Task3MathOperation {
       первый элемент из первого массива и первый элемент из второго массива износить
       это значение в абсолютно новый массив который будет результирующем. Вернуть этот результирующей массив*/
 
-    public Computer[] sumOfArray(Computer[] array1, Computer[] array2) {
-       // Computer[] result = new Computer[10]{
-        int z = 0;
-        Computer[] result = new Computer[array1.length + array2.length];
-        for (Computer computer : result) {
-            result[z * 2] = array1[z];
-            result[z * 2 + 1] = array2[z];
+      /* public Computer[] sumOfArray (Computer[]array1, Computer[]array2){
+            // Computer[] result = new Computer[10]{
+            int z = 0;
+            Computer[] result = new Computer[array1.length + array2.length];
+            for (Computer computer : result) {
+                result[z * 2] = array1[z];
+                result[z * 2 + 1] = array2[z];
+            }
+            z++;
+            System.out.println(Arrays.toString(result));
         }
-        z++;
-        System.out.println(Arrays.toString(result));
     }
 }
-
+*/
 
 
 

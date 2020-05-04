@@ -15,8 +15,8 @@ public class Main {
     int ram;
 
 }
-     public class PC {
-        MathOperations.pcFilter(computers);
+    /* public class PC {
+       MathOperations.pcFilter(computers);
         MathOperations mathOperations = new MathOperations();
-        mathOperations.pcFilter(computers, size);
+        mathOperations.pcFilter(computers, size);*/
 
