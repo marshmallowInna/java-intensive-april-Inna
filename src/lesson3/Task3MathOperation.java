@@ -79,28 +79,29 @@ public class Task3MathOperation {
      создайте массив из 10 различных компьютеров. Создайте метод который будет принимать массив этих компьютеров и
      выводить только те объекты объем оперативной памяти которых больше чем 4 ГБ.*/
 
-    void pcFilter(Computer[] computers) {
+  public void pcFilter(Computer[] computers) {
         for (Computer computer : computers)
             if (computer.volume >= 4) {
                 System.out.println(computer);
 
             }
     }
-}
+
 
 /*9. Используя предыдущее задание усовершенствовать его. Теперь метод должен принимать массив объектов и числовое
 значение которая
 характеризует значение объема оперативной памяти
 которая будет является ограничителем для выведения объектов с соответствующем объемом памяти.*/
 
-      /*  Computer[] pcFilter1 (Computer[]computers ,int CPU){
-            for (Computer computer : computers) {
-                if (computer.volume > 4) {
-                    System.out.println(computer);
-                }
-            }
-        }    }
-    */
+          /*  Computer[] pcFilter1 (Computer[]computers) {
+           for (Computer computer : computers) {
+               if (computer.volume >= 4 && computer.CPU>=4) {
+                   System.out.println(computer);
+               }
+           }
+       }*/
+}
+
 
       /*10 Используя предыдущий метод сгенерировать  два массива. Создайте метод который будет
       принимать два массива и складывать между собой значение их соответствующих элементов иными словами

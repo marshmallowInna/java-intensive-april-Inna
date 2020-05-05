@@ -11,8 +11,6 @@ public class Main {
         int result = a + b + c;
         System.out.println(result);
     }
-    String producer;
-    int ram;
 
 }
     /* public class PC {
