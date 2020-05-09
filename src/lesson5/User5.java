@@ -6,10 +6,15 @@ public class User5 {
     private int id;
     private String name;
 
+
+    public User5(){}
+
+
     public User5(int id, String name) {
         this.id = id;
         this.name = name;
     }
+
 
     public void action() {
         System.out.println("action from user" + id);
