@@ -1,4 +1,4 @@
-package HT;
+package Extends;
 
 public class SportCar extends Car {
     private String speed;

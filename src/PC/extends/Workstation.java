@@ -1,5 +1,5 @@
 package PC;
-public class Workstation extends Laptop {
+public class Workstation extends PC.Laptop {
     public int monitor;
     public int size;
 

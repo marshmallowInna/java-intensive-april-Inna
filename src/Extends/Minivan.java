@@ -1,4 +1,4 @@
-package HT;
+package Extends;
 
 public class Minivan extends Offroad {
 

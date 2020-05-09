@@ -1,4 +1,4 @@
-package HT;
+package Extends;
 
 public class Offroad extends SportCar {
     private String size;
