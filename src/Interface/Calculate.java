@@ -1,4 +1,4 @@
-package Interface2;
+package Interface;
 
 public interface Calculate {
 //double a;

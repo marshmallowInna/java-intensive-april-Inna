@@ -1,4 +1,4 @@
-package Interface2;
+package Interface;
 
 public class Square implements Calculate {
      double a, b;
