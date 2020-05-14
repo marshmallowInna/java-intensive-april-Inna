@@ -1,5 +1,7 @@
 package Intarface;
 
 public interface Calculate {
-    void calculate();
+
+    String getName();
+    double getSquare();
 }

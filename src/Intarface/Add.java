@@ -3,12 +3,22 @@ package Intarface;
 public class Add implements Calculate {
     int [] ints;
 
-    @Override
+  /*  @Override
     public void calculate() {// create method
-       int resul = 0;
+       int result = 0;
         for (int anInt : ints) {
-            resul += anInt;
+            result += anInt;
         }
-        System.out.println(resul);
+        System.out.println(result);
+    }*/
+
+    @Override
+    public String getName() {
+        return null;
+    }
+
+    @Override
+    public double getSquare() {
+        return 0;
     }
 }
